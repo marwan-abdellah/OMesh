@@ -171,7 +171,7 @@ void OptimizationMesh::releaseOptimizationMeshData()
     // Destroy neighbourList
     destroyNeighborlist();
 
-    printf("LIB_STRING Data Released ... \n");
+    printf(LIB_STRING "Data Released ... \n");
 }
 
 void OptimizationMesh::removeUnconnectedVertices()
